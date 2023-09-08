@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/58357617f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="ms">
+        <i class="fa-brands fa-square-facebook icon1 me-2"><a href="www.facebook.com"></a></i>
+        <i class="fa-brands fa-square-twitter icon2 me-2"></i>
+        <i class="fa-brands fa-square-google-plus icon3 me-3"></i>
+        <div class="input-box">
+            <input type="text" placeholder="Search..." />
+            <p class="search">
+                <i class="uil uil-search search-icon"></i>
+            </p>
+            <i class="uil uil-times close-icon"></i>
+        </div>
+    </section>
+    <!-- navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg">
+            <div class="d-flex">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <p class="navbar-toggler-icon"></p>
+                    </button>
+                    <a class="navbar-brand ms-5" href="#">
+                        <img src="http://www.pacificglobal.com.bd/wp-content/uploads/2015/11/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span>HOME</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>ABOUT US</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>MESSAGE FROM MD</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>OUR TEAM</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>STUDY ABROAD</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>GALLERY</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#"><span>CONTACT US</span></a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <script>
+        // ---- ---- Const ---- ---- //
+        let inputBox = document.querySelector('.input-box'),
+            searchIcon = document.querySelector('.search'),
+            closeIcon = document.querySelector('.close-icon');
+
+        // ---- ---- Open Input ---- ---- //
+        searchIcon.addEventListener('click', () => {
+            inputBox.classList.add('open');
+        });
+        // ---- ---- Close Input ---- ---- //
+        closeIcon.addEventListener('click', () => {
+            inputBox.classList.remove('open');
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
