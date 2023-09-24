@@ -78,21 +78,6 @@ ul {
     justify-content: center;
 }
 
-.icon1 {
-    font-size: 35px;
-    color: blue;
-}
-
-.icon2 {
-    font-size: 35px;
-    color: rgb(63, 160, 198);
-}
-
-.icon3 {
-    font-size: 35px;
-    color: rgb(204, 12, 12);
-}
-
 /* search box */
 .input-box {
     position: relative;
@@ -169,6 +154,22 @@ ul {
     pointer-events: auto;
     opacity: 1;
 }
+
+.icon1 {
+    font-size: 35px;
+    color: blue;
+}
+
+.icon2 {
+    font-size: 35px;
+    color: rgb(63, 160, 198);
+}
+
+.icon3 {
+    font-size: 35px;
+    color: rgb(204, 12, 12);
+}
+
 
 .link a {
     text-decoration: none;
@@ -869,6 +870,51 @@ html {
     padding: 10px;
 }
 
+.aN {
+    width: 1150px;
+    margin-left: 100px;
+}
+
+.flexC {
+    display: flex;
+    margin-left: 130px;
+
+}
+
+.zoom {
+
+    background-color: white;
+    transition: transform .2s;
+    /* Animation */
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    border-top: 2px solid rgb(204, 12, 12);
+    border-left: 2px solid rgb(204, 12, 12);
+    border-right: 2px solid rgb(204, 12, 12);
+}
+
+.zoom:hover .zoomI {
+    color: rgb(204, 12, 12);
+}
+
+.zoomI {
+    color: gray;
+}
+
+.nice:hover .nm {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    border: 2px solid rgb(204, 12, 12);
+}
+
 
 @media only screen and (min-width:476px) and (max-width:850px) {
     .apply {
@@ -984,15 +1030,18 @@ html {
     }
 
     .clg {
-        display: grid;
+        /* display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0px 70px;
+        padding: 0px 70px; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
     }
 
     .clg img {
-        width: 200px;
-        margin-left: 0px;
+        width: 300px;
+        margin-left: 20px;
         margin-right: 20px;
         background-color: rgb(205, 194, 194);
 

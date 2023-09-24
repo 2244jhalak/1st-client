@@ -89,6 +89,8 @@
     <!-- about -->
     <section style="background-color: gainsboro;" class="my-3">
         <p style="visibility: hidden;">Hidden</p>
+
+        
         <div class="container about ps-3 pt-5">
             <h5 style="color: rgb(204,12,12);">About Australia</h5>
             <hr class="pb-2" style="width: 150px;">
@@ -605,9 +607,9 @@
 
                 </div>
 
-               </div>
+            </div>
             <hr class="new4 pb-3">
-         <div class="d-flex my-3 copy">
+            <div class="d-flex my-3 copy">
                 <p style="color: gray;" class="mx">© 2016 All rights reserved by <a class="la1"
                         href="index.html">Pacific Global
                         Network.</a></p>
@@ -623,6 +625,22 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="js/Australia.js"></script>
+    <script>
+        // ---- ---- Const ---- ---- //
+        let inputBox = document.querySelector('.input-box'),
+            searchIcon = document.querySelector('.search'),
+            closeIcon = document.querySelector('.close-icon');
+
+        // ---- ---- Open Input ---- ---- //
+        searchIcon.addEventListener('click', () => {
+            inputBox.classList.add('open');
+        });
+        // ---- ---- Close Input ---- ---- //
+        closeIcon.addEventListener('click', () => {
+            inputBox.classList.remove('open');
+        });
+
+    </script>
 </body>
 
 </html>
