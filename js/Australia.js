@@ -128,7 +128,7 @@ function study() {
           </div>
 
           <div>
-              <h4 class="pt-2">
+              <h4 class="pt-3 ps-2">
                  Much Does it Cost
               </h4>
           </div>

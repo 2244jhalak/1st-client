@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-
+    <title>Study in New Zealand</title>
+<link rel="shortcut icon" href="images/logo_2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,8 +17,8 @@
 <body>
     <section class="ms">
         <a href="https://www.facebook.com/pacificglobal/"><i class="fa-brands fa-square-facebook icon1 me-2"></i></a>
-        <i class="fa-brands fa-square-twitter icon2 me-2"></i>
-        <i class="fa-brands fa-square-google-plus icon3 me-3"></i>
+        <a href="#"><i class="fa-brands fa-square-twitter icon2 me-2"></i></a>
+        <a href="#"><i class="fa-brands fa-square-google-plus icon3 me-3"></i></a>
         <div class="input-box">
             <input type="text" placeholder="Search..." />
             <p class="search">
@@ -59,8 +59,16 @@
                         <li class="nav-item ms-2">
                             <a class="nav-link" href="#"><span>OUR TEAM</span></a>
                         </li>
-                        <li class="nav-item ms-2">
-                            <a class="nav-link" href="#"><span>STUDY ABROAD</span></a>
+                        <li class="nav-item ms-2 dropdown">
+                            <a class="nav-link dropbtn" href="#"><span>STUDY ABROAD</span></a>
+                            <div class="dropdown-content">
+                                <a href="Australia.html">Study in Australia</a>
+                                <a href="New-Zealand.html">Study in New-Zealand</a>
+                                <a href="Malaysia.html">Study in Malaysia</a>
+                                <a href="Canada.html">Study in Canada</a>
+                                <a href="USA.html">Study in USA</a>
+                                <a href="UK.html">Study in UK</a>
+                            </div>
                         </li>
                         <li class="nav-item ms-2">
                             <a class="nav-link" href="#"><span>GALLERY</span></a>
@@ -82,8 +90,12 @@
 
 
         <button class="apply">
-            <h5>Apply</h5>
-            <h6>Now</h6>
+            <a style="text-decoration: none;color: white;" href="apply.html">
+        
+                <h5>Apply</h5>
+                <h6>Now</h6>
+        
+            </a>
         </button>
 
 
@@ -137,12 +149,12 @@
         <p style="visibility: hidden;">Hidden</p>
         <h3 class="text-center">About New Zealand</h3>
         <p style="visibility: hidden;">Hidden</p>
-        <div class="card mb-3 aN">
-            <div class="row g-0">
-                <div class="col-md-4">
+        <div class="card mb-3 about">
+            <div class="aN">
+                <div class="v">
                     <img src="images/city.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
-                <div class="col-md-8">
+                <div class="V">
                     <div class="card-body">
                         <p class="card-text">Multicultural New Zealand is a safe, friendly, sophisticated and harmonious
                             society in which students can learn and
@@ -178,6 +190,7 @@
 
             </div>
         </div>
+
         <p style="visibility: hidden;">Hidden</p>
         <div class="container about pt-5 ps-3">
             <h5 style="color: rgb(204,12,12);">Why Study in New-Zealand ?</h5>
@@ -206,124 +219,6 @@
             </ul>
         </div>
         <p class="pb-2" style="visibility: hidden;">Hidden</p>
-    </section>
-    <section>
-        <h3 class="oley">
-            <p class="h4 p1"><button id="choose" class="choose" onclick="choose()">Why Choose
-                    Australia ?</button></p>
-            <p class="h4 p1"><button id="study" class="study" onclick="study()">Study Cost</button></p>
-            <p class="h4 p1"><button id="living" class="living" onclick="living()">Living
-                    Cost</button></p>
-        </h3>
-        <div id="main-container">
-            <p class="why">Australia is located between the Indian Ocean and the South Pacific Ocean with territory of
-                7,692,024
-                km2.Total
-                population is about 23, 5 million people. Canberra is the capital of Australia, Sydney is the largest
-                city. The climate
-                is temperate in south and east, tropical in north and varies from sandy beaches and to deserts.
-                Australia is a very
-                diverse country in aspects of culture, languages, traditions, nationalities. Being a student in this
-                country brings you
-                many opportunities to discover Australia`s beauty. Australia is often chosen by international students
-                as a study abroad
-                direction. About 20% of Australian students are represented by international students. Australian Higher
-                education
-                system is generally considered as one of the best in the world and includes state, private and
-                independent universities.
-                Australian universities offers quality and internationally recognized education. There are 38 public
-                universities and 3
-                private universities in Australia where you can get your undergraduate or graduate degree</p>
-            <div class="grid">
-                <div class="change">
-
-                    <div class="cover">
-                        <i class="fa-solid fa-building-columns coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Top Universities</h4>
-                        <p>Most universities are ranked <br>high in the global <br>university rankings.</p>
-                    </div>
-
-                </div>
-                <div class="change">
-
-                    <div class="cover">
-
-                        <i class="fa-solid fa-graduation-cap coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Field of Study</h4>
-                        <p>Choose from a vast no. of courses that <br>suit you the most and enhance your career.</p>
-                    </div>
-
-                </div>
-                <div class="change">
-
-                    <div class="cover">
-
-                        <i class="fa-solid fa-user coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Student Support
-                        </h4>
-                        <p>All universities provide excellent <br>support for international students.</p>
-                    </div>
-
-                </div>
-                <div class="change">
-
-                    <div class="cover">
-
-                        <i class="fa-solid fa-earth-americas coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Great Lifestyle
-                        </h4>
-                        <p>Experience living in <br>the most livable and vibrant <br>cities in the world.</p>
-                    </div>
-
-                </div>
-                <div class="change">
-
-                    <div class="cover">
-
-                        <i class="fa-solid fa-user-tie coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Placement
-                        </h4>
-                        <p>Graduates from Australian universities<br> are placed in the most renowned<br>organizations
-                            of the
-                            world.</p>
-                    </div>
-
-                </div>
-                <div class="change">
-
-                    <div class="cover">
-
-                        <i class="fa-regular fa-thumbs-up coverIcon"></i>
-
-                    </div>
-                    <div class="">
-                        <h4>Successful Alumni
-                        </h4>
-                        <p>Students have achieved good <br>success after getting <br>their Australian degree.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Education System -->
-    <section style="background-color: gainsboro;" class="my-3">
-        <p style="visibility: hidden;">Hidden</p>
         <div class="container about ps-3 pt-5">
             <h5 style="color: rgb(204,12,12);">New-Zealand Education System</h5>
             <hr class="" style="width: 240px;">
@@ -333,36 +228,44 @@
                 training and assessment, the
                 Government has set up nationally recognized processes of quality assurance. There are a number of
                 government appointed
-                bodies responsible for approving qualifications in New Zealand and for the quality that determines the
+                bodies responsible for approving qualifications in New Zealand and for the quality that determines
+                the
                 delivery of
                 qualifications. These bodies are:
             </p>
             <p class=""><b>New Zealand Qualifications Authority (NZQA)</b></p>
 
-            <p class="pb-2">responsible for approving and registering all courses and national qualifications offered at
+            <p class="pb-2">responsible for approving and registering all courses and national qualifications
+                offered at
                 polytechnics and private
                 training establishments.
             </p>
             <p class=""><b>New Zealand Vice-Chancellor’s Committee (NZVCC)</b></p>
 
-            <p class="pb-2">responsible for approving all diplomas, undergraduate and graduate programmes offered by New
+            <p class="pb-2">responsible for approving all diplomas, undergraduate and graduate programmes offered by
+                New
                 Zealand universities.
             </p>
             <p class=""><b>Universities in New Zealand</b></p>
 
-            <p class="pb-5">University education was established in New Zealand in 1870 and has a similar tradition to
+            <p class="pb-5">University education was established in New Zealand in 1870 and has a similar tradition
+                to
                 the British university
-                system. There are eight state-funded universities in New Zealand, all of them internationally respected
+                system. There are eight state-funded universities in New Zealand, all of them internationally
+                respected
                 for their
-                academic and research performance: In addition to a centrally co-ordinated system of quality assurance
+                academic and research performance: In addition to a centrally co-ordinated system of quality
+                assurance
                 audits at both
                 institution and programme level, each university undertakes internal quality checks. All New Zealand
                 universities offer
-                a broad range of subjects in Arts, Commerce and Science. Each has developed its own specialist subjects
+                a broad range of subjects in Arts, Commerce and Science. Each has developed its own specialist
+                subjects
                 such as
                 Medicine, Engineering, Veterinary Science. Computer Studies, Agriculture and Environmental Studies,
                 Sports-Science,
-                Biotechnology, Architecture etc. Bachelor’s Masters and Doctoral degrees are offered by all New Zealand
+                Biotechnology, Architecture etc. Bachelor’s Masters and Doctoral degrees are offered by all New
+                Zealand
                 universities. A
                 range of under graduate and postgraduate diplomas is also available, along with honours programmes
                 (usually requiring an
@@ -374,11 +277,13 @@
                 education and training at all
                 levels ranging from introductory studies through to full degree programmes. A few of them offer PG
                 programmes as well.
-                Polytechnics and Institutes of Technology are efficient tertiary providers offering programmes which can
+                Polytechnics and Institutes of Technology are efficient tertiary providers offering programmes which
+                can
                 be both
                 academically and vocationally focused. Due to their active engagement with industry, employers and
                 government agencies
-                they provide programmes which are of a high academic standard and are relevant to the rapidly changing
+                they provide programmes which are of a high academic standard and are relevant to the rapidly
+                changing
                 workforce on a
                 global basis. Polytechnics offer diverse courses like Arts and Design, Travel & Tourism, Hospitality
                 etc.
@@ -389,37 +294,101 @@
                 Institutions and schools in this
                 sector provide a range of courses including English language, aviation flight training, air traffic
                 control, English,
-                business computing, dance, design and arts, religious studies, travel and tourism and training for the
+                business computing, dance, design and arts, religious studies, travel and tourism and training for
+                the
                 hospitality
                 industry.
             </p>
         </div>
 
         <p style="visibility: hidden;">Hidden</p>
-        <div class="container about pt-5 ps-3">
-            <h5 style="color: rgb(204,12,12);">Australia Visa Requirements.</h5>
-            <hr class="pb-2" style="width: 200px;">
-            <ul class="pb-2">
-                <li>Letter of Offer</li>
-                <li>eCoE</li>
-                <li>Statement of Purpose (SOP)</li>
-                <li>Valid Passport</li>
-                <li>Passport size Photographs (4 Nos.)</li>
-                <li>Academic documents (IELTS/TOFEL iBT/PTE Mark Sheet)</li>
-                <li>Work-experience (if applicable) – from present and previous employers providing their contact
-                    details. Applicants are
-                    also required to submit a Statement of purpose giving details of why they opted to study this course
-                    in Australia</li>
-                <li>Financial requirements – as per AL 1 & details can be found at www.immi.gov.au</li>
-                <li>Financial Documents for Australian Student Visas</li>
+        <div class="scost py-5">
+            <div class="scostN">
+                <div>
+                    <div class="">
+                        <div class="">
+                            <h2 class="ps-5">
+                                Study and Living Cost Info
+
+                            </h2>
+                        </div>
 
 
 
-            </ul>
-            <p class="pb-5"><b>Please contact us at Pacific global network personally for further assistance on the
-                    above and Visa
-                    Procedure.</b>
-            </p>
+
+
+                    </div>
+                    <p class="pt-2 ulN ps-3">
+
+                        Maintaining study and living cost in New Zealand as an international <br>student can vary
+                        depending
+                        on area of study,
+                        university quality and<br> city location.
+                    </p>
+                    <hr>
+                    <div class="ki">
+                        <div>
+                            <img src="images/study-cost-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h4 class="ps-3">Living Cost Details</h4>
+                            <p class="ps-3">For a single person it cost around <b>$12240 <br>per year</b> to maintain
+                                their living expenses.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="scostN">
+                <div class="hmm">
+                    <div class="">
+                        <div class="how">
+                            <div class="cover2N">
+                                <h4 class="coverIcon2N">
+                                    How
+                                </h4>
+                            </div>
+
+                            <div>
+                                <h4 class="pt-3 ps-2">
+                                    Much Does it Cost to Study?
+                                </h4>
+                            </div>
+
+
+
+                        </div>
+                        <ul class="pt-2 ulN">
+                            <li>
+                                <p><b>Undergraduate Bachelor Degree </b>- $15,000 to $33,000*</p>
+                            </li>
+                            <li>
+                                <p><b>Postgraduate Masters Degree </b>- $20,000 to $37,000*</p>
+                            </li>
+
+                        </ul>
+                        <p class="ps-2 ulN"><b>Note:</b> High value courses like medical and veterinary are not included
+                        </p>
+                    </div>
+                    <div class="">
+                        <h4 class="ulN ps-2">In-Depth Details</h4>
+                        <p class="ulN ps-2">As international student you have to pay your tuition fee first before you
+                            study.<br>
+                            Normally all
+                            university take about 50% in advance from the 1st year's tuition fee.<br> Overseas Student
+                            Health
+                            Cover
+                            (OSHC) also has to be paid with the tuition fee.</p>
+                        <p class="ulN ps-2" class="pt-2">Other additional costs like course materials and access to
+                            institution<br>
+                            facilities
+                            will be charged when you are at your designated univesity.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <p style="visibility: hidden;">Hidden</p>
         <div class="container about pt-5 ps-3">
@@ -431,7 +400,8 @@
                 <li class="ms-3">20 hours per week.</li>
                 <li class="ms-3">Full time during study break.</li>
                 <li class="ms-3">Post-study work rights</li>
-                <li class="ms-3">Bachelor and Masters degree holders who have spent at least two academic years studying
+                <li class="ms-3">Bachelor and Masters degree holders who have spent at least two academic years
+                    studying
                     that degree two years post-study work rights.</li>
                 <li class="ms-3">Masters by Research graduates to receive three years post-study work rights.</li>
                 <li class="ms-3">PhD graduates to receive four years post-study work rights.</li>
@@ -449,18 +419,22 @@
             </ul>
             <p class=""><b>Application Procedure</b></p>
 
-            <p class="pb-5">Though each University specifies its application procedure / requirements, generally one can
+            <p class="pb-5">Though each University specifies its application procedure / requirements, generally one
+                can
                 apply for admissions
-                through us at Pacific Global Network, where by all application, admission and correspondence services
+                through us at Pacific Global Network, where by all application, admission and correspondence
+                services
                 will be provided
                 by us. You can give us all necessary supporting documents and we will assist you with the entire
                 admission procedure.
             </p>
             <p class=""><b>Spot Interviews</b></p>
 
-            <p class="pb-5">Spot interviews are also conducted by several visiting Universities at our offices: In this
+            <p class="pb-5">Spot interviews are also conducted by several visiting Universities at our offices: In
+                this
                 case, one is required to
-                attend an interview conducted by university staff/ faculty, who will offer the student an on the spot
+                attend an interview conducted by university staff/ faculty, who will offer the student an on the
+                spot
                 decision, about
                 whether or not he is eligible for admission. Also, further relevant inquiries can be made and are
                 usually answered by
@@ -486,7 +460,8 @@
 
                 <i style="font-size: 50px;" class="fa-solid fa-earth-americas zoomI pt-5"></i>
                 <h5 class="pt-5">50 points</h5>
-                <p class="pt-3">You can choose from some of the top ranking universities of Australia that we represent.
+                <p class="pt-3">You can choose from some of the top ranking universities of Australia that we
+                    represent.
                 </p>
             </div>
             <div class="zoom">
@@ -509,12 +484,14 @@
                 <p class="pt-3">After getting your visa, prepare for abroad. Best of Luck !</p>
             </div>
         </div>
-        <h3 style="color: rgb(204,12,12);" class="text-center pt-5 pb-4">Total ------------------------- 160 Points</h3>
+        <h3 style="color: rgb(204,12,12);" class="text-center pt-5 pb-4">Total ------------------------- 160 Points
+        </h3>
 
         <p style="visibility: hidden;">Hidden</p>
-
-
     </section>
+
+
+
 
     <!-- Our partner -->
     <section class="container">
@@ -527,32 +504,18 @@
             <a href="https://www.sit.ac.nz/"><img src="images/5.jpg" alt=""></a>
             <a href="https://www.canterbury.ac.nz/"><img src="images/6_2.jpg" alt=""></a>
             <a href="https://www.unitec.ac.nz/"><img src="images/7_2.jpg" alt=""></a>
-            <a href="https://www.rmit.edu.au/"><img src="images/8.jpg" alt=""></a>
-            <a href="https://www.usc.edu.au/"><img src="images/9_2.jpg" alt=""></a>
-            <a href="https://www.canberra.edu.au/"><img src="images/10_2.jpg" alt=""></a>
-            <a href="https://www.sibt.nsw.edu.au/"><img src="images/11.jpg" alt=""></a>
-            <a href="https://www.scu.edu.au/"><img src="images/12_2.jpg" alt=""></a>
-            <a href="https://atmc.edu.au/"><img src="images/13_2.jpg" alt=""></a>
-            <a href="https://www.deakin.edu.au/"><img src="images/14_2.jpg" alt=""></a>
-            <a href="https://vit.edu.au/"><img src="images/15_2.jpg" alt=""></a>
-            <a
-                href="https://www.adelaide.edu.au/front/international.html?adobe_mc_sdid=SDID%3D1EC011AB26FDEAAC-6F4E8620ADECE980%7CMCORGID%3DBA023B045D5A83160A495E49%40AdobeOrg%7CTS%3D1695142374&adobe_mc_ref=http%3A%2F%2Fwww.pacificglobal.com.bd%2F"><img
-                    src="images/16.jpg" alt=""></a>
+            <a href="https://www.wgtn.ac.nz/"><img src="images/8.jpg" alt=""></a>
+            <a href="https://www.waikato.ac.nz/"><img src="images/9_2.jpg" alt=""></a>
+            <a href="http://cibt.cornellgroup.nz/"><img src="images/10_2.jpg" alt=""></a>
+            <a href="https://www.kite.ac.nz/"><img src="images/11.jpg" alt=""></a>
+            <a href="https://www.manukau.ac.nz/"><img src="images/12_2.jpg" alt=""></a>
+            <a href="https://www.massey.ac.nz/"><img src="images/13_2.jpg" alt=""></a>
+            <a href="https://www.aspire2international.ac.nz/"><img src="images/14_2.jpg" alt=""></a>
+            <a href="https://www.waiariki.ac.nz/home"><img src="images/15_2.jpg" alt=""></a>
+            <a href="https://www.wintec.ac.nz/"><img src="images/16.jpg" alt=""></a>
         </div>
     </section>
-    <!-- certificate -->
-    <section style="background-color: gainsboro;">
-        <h3 style="color: rgb(55, 54, 54);" class="text-center py-3">Certificate of Recognition</h3>
-        <div class="text-center reward pb-3">
-            <div>
-                <img class="cdu" src="images/cdu-eti.jpg" alt="">
-            </div>
-            <div>
-                <img class="agent" src="images/agent.jpg" alt="">
-            </div>
-        </div>
 
-    </section>
     <!-- Visa -->
     <section class="higher">
         <img class="container-fluid visa" src="images/photo-1522071901873-411886a10004.jfif" alt="">
@@ -564,10 +527,7 @@
                 <i class="fa-solid fa-diamond-turn-right arrow directIcon"></i>
             </p>
 
-            <!-- <div class="last">
-                <a class="commission" href="">Australian High Commission</a>
-                <a class="" href="">VFS-AUSTRALIA</a>
-            </div> -->
+
 
 
             <a class="anchor1" style="text-decoration: none;"
@@ -583,73 +543,77 @@
         </div>
         <p class="pb-2" style="visibility: hidden;">hide</p>
     </section>
+    <a href="#" class="to-top">
+        <button
+            style="background-color: rgb(204,12,12);color: white;border: 2px solid rgb(204,12,12);border-radius: 5px;font-size: 20px;padding:10px 10px;">Top</button>
+    </a>
     <!-- footer -->
     <footer class="bg-dark text-white mb-3">
         <div>
             <div class="container d-flex pt-5 foot">
-
+    
                 <div>
                     <h5>Quick Link</h5>
-
+    
                     <div class="d-flex">
                         <div>
                             <div class="link">
-                                <a href="#">
+                                <a href="index.html">
                                     <p>Home</p>
                                 </a>
-                                <a href="#">
+                                <a href="countries.html">
                                     <p>Countries</p>
                                 </a>
-
-                                <a href="">
+    
+                                <a href="New-Zealand.html">
                                     <p>Study in New Zealand</p>
                                 </a>
-                                <a href="">
+                                <a href="UK.html">
                                     <p>Study in UK</p>
                                 </a>
-
-                                <a href="">
+    
+                                <a href="Malaysia.html">
                                     <p>Study in Malaysia</p>
                                 </a>
-                                <a href="">
+                                <a href="https://pacificglobal.com.bd:2096/">
                                     <p>Web Mail</p>
                                 </a>
-
+    
                             </div>
-
-
+    
+    
                         </div>
                         <div class="ps-5 ms-5">
                             <div class="link">
-                                <a href="">
+                                <a href="about.html">
                                     <p>About Us</p>
                                 </a>
                                 <a href="Australia.html">
                                     <p>Study in Australia</p>
                                 </a>
-                                <a href="">
+                                <a href="Canada.html">
                                     <p>Study in Canada</p>
                                 </a>
-                                <a href="">
+                                <a href="USA.html">
                                     <p>Study in USA</p>
                                 </a>
-                                <a href="">
+                                <a href="contact.html">
                                     <p>Contact Us</p>
                                 </a>
-                                <a href="">
+                                <a href="https://www.pacificglobal.com.bd:2083/">
                                     <p>Cpanel</p>
                                 </a>
                             </div>
                         </div>
                     </div>
-
+    
                 </div>
-
-
+    
+    
                 <div class="pm ps-5 ms-5">
                     <h5>ADDRESS</h5>
                     <div class="color">
-
+    
                         <p>Pacific Global Network Ltd.</p>
                         <p>House # 52/1 (3rd floor), Road # 3/A</p>
                         <p>Dhanmondi, Dhaka 1209, Bangladesh</p>
@@ -659,28 +623,27 @@
                 <div class="pm ps-5 ms-5">
                     <h5>CONTACT US</h5>
                     <div class="color">
-
+    
                         <p>Mobile: +88 01791-99 77 88</p>
                         <p>mobile: +88 01794-11 99 22</p>
                         <p>Email: info@pacificglobal.com.bd</p>
                         <p>Skype: pacific.helpline</p>
                     </div>
-
-
+    
+    
                 </div>
-
+    
             </div>
             <hr class="new4 pb-3">
             <div class="d-flex my-3 copy">
-                <p style="color: gray;" class="mx">© 2016 All rights reserved by <a class="la1"
-                        href="index.html">Pacific Global
+                <p style="color: gray;" class="mx">© 2016 All rights reserved by <a class="la1" href="index.html">Pacific
+                        Global
                         Network.</a></p>
                 <p style="color: gray;" class="mx2">Design & Developed by <a class="la1"
                         href="http://bestitfirm.com/">::Best
                         IT Firm</a></p>
             </div>
     </footer>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -701,6 +664,22 @@
         closeIcon.addEventListener('click', () => {
             inputBox.classList.remove('open');
         });
+        const toTop = document.querySelector(".to-top");
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add("active");
+            } else {
+                toTop.classList.remove("active");
+            }
+        })
+        const accordion = document.getElementsByClassName('contentBx');
+        for (i = 0; i < accordion.length; i++) {
+            accordion[i].addEventListener('click', function () {
+                this.classList.toggle('active');
+            })
+        }
+
 
     </script>
 </body>

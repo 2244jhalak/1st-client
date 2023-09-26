@@ -328,10 +328,30 @@ ul {
 
 .centered {
     position: absolute;
-    top: 750px;
+    top: 900px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.centeredN {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.centeredN2 {
+    position: absolute;
+    top: 1100px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .centeredHr {
@@ -344,7 +364,7 @@ ul {
 
 .centeredN {
     position: absolute;
-    top: 820px;
+    top: 1000px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -354,7 +374,7 @@ ul {
 
 .centeredN2 {
     position: absolute;
-    top: 920px;
+    top: 1100px;
     left: 51%;
     transform: translate(-50%, -50%);
     color: white;
@@ -509,6 +529,43 @@ ul {
     font-size: 20px;
 }
 
+.cover2N {
+    background-color: rgb(204, 12, 12);
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+    margin-left: 30px;
+    transition: transform .2s;
+
+
+}
+
+
+
+.ulN {
+    margin-left: 30px;
+}
+
+.ki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coverIcon2N {
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.hmm:hover .cover2N {
+    width: 60px;
+    height: 60px;
+    transform: scale(1.1);
+}
+
 .cover {
     background-color: rgb(62, 62, 62);
     height: 50px;
@@ -539,9 +596,18 @@ ul {
 
 }
 
+.scostN {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .ind {
     text-align: center;
 }
+
+.indN {}
 
 .p3 {
     margin-left: 200px;
@@ -602,7 +668,7 @@ ul {
 .somelink {
     position: absolute;
     top: 120px;
-    left: 250px;
+    left: 50px;
     color: white;
     display: flex;
 
@@ -664,6 +730,12 @@ ul {
 
 }
 
+
+.v img {
+    width: 600px;
+    height: 430px;
+}
+
 .last2 {
     width: 100px;
     height: 80px;
@@ -704,6 +776,7 @@ ul {
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 5px;
+    margin-right: 5px;
 }
 
 .process {
@@ -871,13 +944,18 @@ html {
 }
 
 .aN {
-    width: 1150px;
-    margin-left: 100px;
+    display: flex;
 }
+
+
+
+
 
 .flexC {
     display: flex;
+
     margin-left: 130px;
+
 
 }
 
@@ -888,6 +966,7 @@ html {
     /* Animation */
     width: 200px;
     height: 300px;
+    margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 5px;
 
@@ -909,14 +988,245 @@ html {
     color: gray;
 }
 
-.nice:hover .nm {
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-    border: 2px solid rgb(204, 12, 12);
+.flexD {
+    display: flex;
+    margin-left: 120px;
+
+}
+
+.zoomUS {
+
+    background-color: rgb(247, 245, 245);
+    transition: transform .2s;
+    /* Animation */
+    width: 270px;
+    height: 450px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+
+}
+
+.zoomUS:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    border-top: 2px solid rgb(204, 12, 12);
+    border-left: 2px solid rgb(204, 12, 12);
+    border-right: 2px solid rgb(204, 12, 12);
+    background-color: white;
+    border: 1px solid rgb(175, 172, 172);
+}
+
+.zoomUS:hover .zoomUSI {
+    color: rgb(204, 12, 12);
 }
 
 
-@media only screen and (min-width:476px) and (max-width:850px) {
+.zoomUSI {
+    color: black;
+}
+
+.nice img {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+
+}
+
+.nice:hover .nm {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    border: 5px solid rgb(204, 12, 12);
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.do {
+    background-color: #1c1c1c;
+}
+
+.rafa {
+    background-color: white;
+    padding: 30px 50px;
+    border: 1px solid rgb(234, 230, 230);
+    margin: 30px 100px;
+
+}
+
+.right {
+    padding-left: 400px;
+}
+
+.box {
+    border: 3px solid red;
+    height: 150px;
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn-grp {
+    margin: 0;
+}
+
+.lastC {
+    height: fit-content;
+    margin: 0 100px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#last-container {
+    display: flex;
+}
+
+#step1 {
+    background-color: black;
+    color: white;
+}
+
+.max {
+    position: absolute;
+    top: 130px;
+    left: 5px;
+}
+
+.boxS {
+    width: 350px;
+    height: 100px;
+    background: rgb(21, 21, 105);
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.boxst {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+.boxS:hover::after,
+.boxS:hover::before {
+    transform: scale(1, 1);
+}
+
+.boxS::after,
+.boxS::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    transition: all 0.5s;
+}
+
+.boxS::after {
+    border-right: 3px solid tomato;
+    border-left: 3px solid tomato;
+    transform: scale(1, 0);
+}
+
+.boxS::before {
+    border-top: 3px solid tomato;
+    border-bottom: 3px solid tomato;
+    transform: scale(0, 1);
+}
+
+.aN {
+
+    display: flex;
+
+}
+
+.jak {
+    position: relative;
+}
+
+.net:hover img {
+    background-color: rgb(204, 12, 12);
+}
+
+.fut {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: xx-large;
+}
+
+
+@media only screen and (min-width:476px) and (max-width:1200px) {
+    .background img {
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: blur(1px);
+        position: relative;
+        text-align: center;
+    }
+
+    .main {
+        background-color: rgb(204, 12, 12);
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+
+
+        transition: transform .2s;
+
+        margin-bottom: 10px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 2700px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .centeredN {
+        position: absolute;
+        top: 2940px;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .centeredN2 {
+        position: absolute;
+        top: 2900px;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
     .apply {
         position: absolute;
         right: 50px;
@@ -934,9 +1244,58 @@ html {
         top: 80px;
     }
 
+    .law {
+        height: 5px;
+    }
+
+    .right {
+        padding-left: 0px;
+    }
+
     .inputD {
         display: flex;
         flex-direction: column;
+    }
+
+    .flexD {
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 700px;
+
+    }
+
+    .zoomUS {
+
+        background-color: rgb(247, 245, 245);
+        transition: transform .2s;
+        /* Animation */
+        width: 500px;
+        height: fit-content;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-bottom: 30px;
+
+    }
+
+    .zoomUS:hover {
+        transform: scale(1.1);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        border-top: 2px solid rgb(204, 12, 12);
+        border-left: 2px solid rgb(204, 12, 12);
+        border-right: 2px solid rgb(204, 12, 12);
+        background-color: white;
+        border: 1px solid rgb(175, 172, 172);
+    }
+
+    .zoomUS:hover .zoomUSI {
+        color: rgb(204, 12, 12);
+    }
+
+
+    .zoomUSI {
+        color: black;
     }
 
     .in {
@@ -950,6 +1309,15 @@ html {
 
     .area {
         width: 438px;
+    }
+
+    .ms {
+        margin-left: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .reward {
@@ -975,6 +1343,52 @@ html {
 
     }
 
+    .boxS {
+        width: 350px;
+        height: 100px;
+        background: rgb(21, 21, 105);
+        color: white;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+    }
+
+    .boxst {
+        position: absolute;
+        top: 5 0px;
+        left: 10px;
+    }
+
+    .boxS:hover::after,
+    .boxS:hover::before {
+        transform: scale(1, 1);
+    }
+
+    .boxS::after,
+    .boxS::before {
+        content: '';
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        transition: all 0.5s;
+    }
+
+    .boxS::after {
+        border-right: 3px solid tomato;
+        border-left: 3px solid tomato;
+        transform: scale(1, 0);
+    }
+
+    .boxS::before {
+        border-top: 3px solid tomato;
+        border-bottom: 3px solid tomato;
+        transform: scale(0, 1);
+    }
+
     .somelink {
         position: absolute;
         top: -15px;
@@ -982,6 +1396,26 @@ html {
         color: white;
         display: flex;
         flex-direction: column;
+
+
+    }
+
+    .lastC {
+        height: fit-content;
+        margin: 0;
+        background-color: white;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    #last-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visa {
+        height: 360px;
+        width: 100%;
 
 
     }
@@ -998,6 +1432,16 @@ html {
 
     }
 
+    .flexC {
+        display: flex;
+        flex-direction: column;
+        margin-left: 130px;
+
+
+    }
+
+
+
     .anchor1:hover {
         border-bottom: 5px solid rgb(204, 12, 12);
     }
@@ -1012,6 +1456,7 @@ html {
         padding-top: 25px;
         padding-left: 8px;
         padding-right: 8px;
+        margin-bottom: 5px;
         border-radius: 5px;
     }
 
@@ -1160,6 +1605,10 @@ html {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .p3 {
+        margin-right: 0px;
+    }
+
     .first {
         text-align: center;
         border: 3px solid gray;
@@ -1180,12 +1629,68 @@ html {
 
     }
 
+    .scost {
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .proGrid:hover {
         box-shadow: 0 0 50px rgba(33, 33, 33, .2);
     }
 
     .proGrid:hover>.pro {
         color: rgb(204, 12, 12);
+    }
+
+    .aN {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .v img {
+        width: 600px;
+        height: 430px;
+    }
+
+    .flexD {
+        display: flex;
+        margin-left: 20px;
+
+    }
+
+    .zoomUS {
+
+        background-color: rgb(247, 245, 245);
+        transition: transform .2s;
+        /* Animation */
+        width: 270px;
+        height: 250px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+
+    }
+
+    .zoomUS:hover {
+        transform: scale(1.1);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        border-top: 2px solid rgb(204, 12, 12);
+        border-left: 2px solid rgb(204, 12, 12);
+        border-right: 2px solid rgb(204, 12, 12);
+        background-color: white;
+        border: 1px solid rgb(175, 172, 172);
+    }
+
+    .zoomUS:hover .zoomUSI {
+        color: rgb(204, 12, 12);
+    }
+
+
+    .zoomUSI {
+        color: black;
     }
 
 
