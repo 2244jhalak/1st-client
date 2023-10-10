@@ -1172,6 +1172,33 @@ h1 {
 }
 
 
+
+.test {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: transform .2s;
+
+}
+
+.test:hover {
+    transform: scale(2.5);
+    color: rgb(204, 12, 12);
+}
+
+.test1 {
+    width: 200px;
+    margin-bottom: 5px;
+    transition: transform .2s;
+
+}
+
+.test1:hover {
+    transform: scale(1.1);
+    color: rgb(204, 12, 12);
+}
+
+
+
 @media only screen and (min-width:10px) and (max-width:1200px) {
     .background img {
         height: 600px;
