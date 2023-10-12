@@ -248,7 +248,7 @@ function overview() {
             <div class="proGrid col text-center">
                 <h5>Pick an Institute</h5>
                 <i style="font-size: 50px;" class="fa-solid fa-earth-americas pro"></i>
-                <p>You can choose from some of the top ranking universities of Australia that we represent.</p>
+                <p>You can choose from some of the top ranking universities of Canada that we represent.</p>
             </div>
             <div class="proGrid col text-center">
                 <h5>GTE Assessment</h5>
