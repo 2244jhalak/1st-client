@@ -1121,7 +1121,7 @@ h1 {
 
 .boxst {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 500px;
 }
 
