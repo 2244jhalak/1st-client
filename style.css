@@ -424,7 +424,7 @@ ul {
 
 .apply {
     position: absolute;
-    right: 120px;
+    right: 650px;
     top: 0;
     background-color: rgb(204, 12, 12);
     color: white;
@@ -1304,7 +1304,7 @@ h1 {
 
     .apply {
         position: absolute;
-        right: 50px;
+        right: 200px;
         top: 0;
         background-color: rgb(204, 12, 12);
         color: white;
