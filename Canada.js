@@ -228,6 +228,7 @@ function step6() {
 
 }
 function overview() {
+    console.log(5);
     const lastContainer = document.getElementById('last-container');
     const step1 = document.getElementById('step1');
     const step2 = document.getElementById('step2');
@@ -237,7 +238,7 @@ function overview() {
     const step6 = document.getElementById('step6');
     const overview = document.getElementById('overview');
     lastContainer.innerHTML = `
-   <h3 class="text-center">Our Process</h3>
+  
        <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
             <div class="proGrid col text-center">
